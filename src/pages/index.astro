@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
 const projects = await getCollection("projects");
@@ -15,26 +16,35 @@ projects.sort(
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
-  <body>
-    <h1>Frontend Mentor Projects</h1>
+  <body class="mx-auto max-w-screen-lg space-y-6">
+    <h1 class="text-5xl font-bold">Frontend Mentor Projects</h1>
     {
-      projects.map(({ data: { name, hub, link, repository, dateStarted } }) => (
-        <article>
-          <h2>{name}</h2>
-          <ul>
-            <li>
-              <a href={hub}>{hub}</a>
-            </li>
-            <li>
-              <a href={link}>{link}</a>
-            </li>
-            <li>
-              <a href={repository}>{repository}</a>
-            </li>
-            <li>{dateStarted}</li>
-          </ul>
-        </article>
-      ))
+      projects.map(
+        ({ data: { name, hub, link, repository, dateStarted, img } }) => (
+          <article>
+            <h2 class="text-xl font-medium">{name}</h2>
+            <ul>
+              <li>
+                <a href={hub}>{hub}</a>
+              </li>
+              <li>
+                <a href={link}>{link}</a>
+              </li>
+              <li>
+                <a href={repository}>{repository}</a>
+              </li>
+              <li>{dateStarted}</li>
+              {img ? (
+                <Image
+                  src={img}
+                  alt=""
+                  class="aspect-[16/10] object-cover object-top rounded-lg"
+                />
+              ) : null}
+            </ul>
+          </article>
+        )
+      )
     }
   </body>
 </html>

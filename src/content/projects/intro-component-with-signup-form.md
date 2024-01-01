@@ -4,4 +4,5 @@ hub: "https://www.frontendmentor.io/challenges/intro-component-with-signup-form-
 link: "https://clark-intro-component-with-signup-form.vercel.app"
 repository: "https://www.github.com/clakr/intro-component-with-signup-form"
 dateStarted: "June 23, 2023"
+img: "../../assets/intro-component-with-signup-form.png"
 ---
