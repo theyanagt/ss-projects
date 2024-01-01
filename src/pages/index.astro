@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
 
 const projects = await getCollection("projects");
 projects.sort(
@@ -8,43 +9,36 @@ projects.sort(
 );
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
-  </head>
-  <body class="mx-auto max-w-screen-lg space-y-6">
-    <h1 class="text-5xl font-bold">Frontend Mentor Projects</h1>
-    {
-      projects.map(
-        ({ data: { name, hub, link, repository, dateStarted, img } }) => (
-          <article>
-            <h2 class="text-xl font-medium">{name}</h2>
-            <ul>
-              <li>
-                <a href={hub}>{hub}</a>
-              </li>
-              <li>
-                <a href={link}>{link}</a>
-              </li>
-              <li>
-                <a href={repository}>{repository}</a>
-              </li>
-              <li>{dateStarted}</li>
-              {img ? (
+<Base class="space-y-6">
+  <h1 class="text-5xl font-bold">Frontend Mentor Projects</h1>
+  {
+    projects.map(
+      ({ data: { name, hub, link, repository, dateStarted, img }, slug }) => (
+        <article>
+          <h2 class="text-xl font-medium">{name}</h2>
+          <ul>
+            <li>
+              <a href={hub}>{hub}</a>
+            </li>
+            <li>
+              <a href={link}>{link}</a>
+            </li>
+            <li>
+              <a href={repository}>{repository}</a>
+            </li>
+            <li>{dateStarted}</li>
+            {img ? (
+              <a href={slug}>
                 <Image
                   src={img}
                   alt=""
                   class="aspect-[16/10] object-cover object-top rounded-lg"
                 />
-              ) : null}
-            </ul>
-          </article>
-        )
+              </a>
+            ) : null}
+          </ul>
+        </article>
       )
-    }
-  </body>
-</html>
+    )
+  }
+</Base>

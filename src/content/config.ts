@@ -8,7 +8,7 @@ const projects = defineCollection({
         link: z.string(),
         repository: z.string(),
         dateStarted: z.string().transform((value) => new Date(value)),
-        img: image().optional()
+        img: image(),
     })
 })
 
