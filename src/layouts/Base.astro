@@ -13,7 +13,9 @@ const { class: className } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
-  <body class={twMerge(clsx("mx-auto max-w-screen-lg", className))}>
+  <body
+    class={twMerge(clsx("mx-auto max-w-screen-lg bg-neutral-50", className))}
+  >
     <slot />
   </body>
 </html>
