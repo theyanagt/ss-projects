@@ -14,7 +14,9 @@ const { class: className } = Astro.props;
     <title>Astro</title>
   </head>
   <body
-    class={twMerge(clsx("mx-auto max-w-screen-lg bg-neutral-50", className))}
+    class={twMerge(
+      clsx("mx-auto max-w-screen-lg bg-neutral-50 text-balance", className)
+    )}
   >
     <slot />
   </body>
