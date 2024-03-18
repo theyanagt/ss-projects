@@ -11,11 +11,11 @@ const { class: className } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>Clark's frontendmentor.io Projects</title>
   </head>
   <body
     class={twMerge(
-      clsx("mx-auto max-w-screen-lg bg-neutral-50 text-balance", className)
+      clsx("mx-auto max-w-screen-lg bg-neutral-50 text-balance", className),
     )}
   >
     <slot />
