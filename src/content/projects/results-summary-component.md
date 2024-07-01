@@ -5,4 +5,5 @@ link: "https://clark-results-summary-component.vercel.app"
 repository: "https://www.github.com/clakr/results-summary-component"
 dateStarted: "May 29, 2023"
 img: "../../assets/results-summary-component.png"
+tags: ["html", "css", "typescript", "pug"]
 ---

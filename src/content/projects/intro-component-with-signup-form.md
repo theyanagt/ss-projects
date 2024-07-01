@@ -5,4 +5,5 @@ link: "https://clark-intro-component-with-signup-form.vercel.app"
 repository: "https://www.github.com/clakr/intro-component-with-signup-form"
 dateStarted: "June 23, 2023"
 img: "../../assets/intro-component-with-signup-form.png"
+tags: ["html", "css", "typescript", "sass"]
 ---

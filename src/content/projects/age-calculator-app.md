@@ -5,4 +5,5 @@ link: "https://clark-age-calculator-app.vercel.app"
 repository: "https://www.github.com/clakr/age-calculator-app"
 dateStarted: "July 19, 2023"
 img: "../../assets/age-calculator-app.png"
+tags: ["html", "css", "typescript", "vue", "sass"]
 ---

@@ -5,4 +5,5 @@ link: "https://clark-qr-code-component.vercel.app"
 repository: "https://www.github.com/clakr/qr-code-component"
 dateStarted: "May 15, 2023"
 img: "../../assets/qr-code-component.png"
+tags: ["html", "css", "typescript"]
 ---

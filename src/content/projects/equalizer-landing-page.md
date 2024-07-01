@@ -5,4 +5,5 @@ link: "https://clark-equalizer-landing-page.vercel.app"
 repository: "https://www.github.com/clakr/equalizer-landing-page"
 dateStarted: "May 28, 2023"
 img: "../../assets/equalizer-landing-page.png"
+tags: ["html", "css", "typescript", "unocss"]
 ---

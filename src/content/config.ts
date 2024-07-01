@@ -9,6 +9,7 @@ const projects = defineCollection({
         repository: z.string(),
         dateStarted: z.string().transform((value) => new Date(value)),
         img: image(),
+        tags: z.array(z.string())
     })
 })
 

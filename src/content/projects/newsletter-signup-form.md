@@ -5,4 +5,5 @@ link: "https://clark-newsletter-signup-form.vercel.app"
 repository: "https://www.github.com/clakr/newsletter-signup-form"
 dateStarted: "June 28, 2023"
 img: "../../assets/newsletter-signup-form.png"
+tags: ["html", "css", "typescript", "vue", "sass"]
 ---

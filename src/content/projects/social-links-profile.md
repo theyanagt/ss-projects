@@ -5,4 +5,5 @@ link: "https://clark-social-links-profile.vercel.app/"
 repository: "https://www.github.com/clakr/social-links-profile"
 dateStarted: "March 14, 2024"
 img: "../../assets/social-links-profile.png"
+tags: ["html", "css", "typescript", "tailwind"]
 ---

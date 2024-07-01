@@ -5,4 +5,5 @@ link: "https://clark-bmi-calculator.vercel.app"
 repository: "https://www.github.com/clakr/bmi-calculator"
 dateStarted: "May 26, 2023"
 img: "../../assets/bmi-calculator.png"
+tags: ["html", "css", "typescript", "vue"]
 ---

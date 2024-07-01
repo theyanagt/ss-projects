@@ -5,7 +5,7 @@ import type getProjects from "../utils/getProjects";
 type Props = Pick<Awaited<ReturnType<typeof getProjects>>[number], "data">;
 
 const {
-  data: { name, link, repository, hub, img },
+  data: { name, link, repository, hub, img, tags },
 } = Astro.props;
 ---
 
@@ -20,7 +20,14 @@ const {
   <div
     class="absolute bg-gradient-to-b from-transparent to-100% to-black/75 inset-0 opacity-0 group-hover/article:opacity-100 flex text-neutral-50 p-8 items-end justify-between"
   >
-    <h2 class="text-5xl">{name}</h2>
+    <div class="flex flex-col gap-y-2">
+      <h2 class="text-5xl">{name}</h2>
+      <ul class="flex gap-x-1.5">
+        {tags.map((tag) => (
+          <li class="uppercase text-xs font-bold">{tag}</li>
+        ))}
+      </ul>
+    </div>
     <div class="flex items-center gap-x-4 [&>a>svg]:size-8">
       <a href={link} target="_blank" class="group/a">
         <svg
