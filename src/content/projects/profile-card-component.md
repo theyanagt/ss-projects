@@ -5,5 +5,5 @@ link: "https://clark-profile-card-component.vercel.app"
 repository: "https://www.github.com/clakr/profile-card-component"
 dateStarted: "May 21, 2023"
 img: "../../assets/profile-card-component.png"
-tags: ["html", "css", "typescript", "unocss"]
+tags: ["html", "unocss", "typescript"]
 ---

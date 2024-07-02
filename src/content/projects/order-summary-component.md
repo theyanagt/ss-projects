@@ -5,5 +5,5 @@ link: "https://clark-order-summary-component.vercel.app"
 repository: "https://www.github.com/clakr/order-summary-component"
 dateStarted: "May 16, 2023"
 img: "../../assets/order-summary-component.png"
-tags: ["html", "css", "typescript", "tailwind"]
+tags: ["html", "tailwind", "typescript"]
 ---

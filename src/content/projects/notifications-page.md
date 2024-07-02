@@ -5,5 +5,5 @@ link: "https://notifications-page-clakr.vercel.app/"
 repository: "https://www.github.com/clakr/notifications-page"
 dateStarted: "July 16, 2023"
 img: "../../assets/notifications-page.png"
-tags: ["html", "css", "typescript", "vue", "unocss"]
+tags: ["vue", "unocss", "typescript"]
 ---

@@ -5,5 +5,5 @@ link: "https://clark-faq-accordion-card.vercel.app"
 repository: "https://www.github.com/clakr/faq-accordion-card"
 dateStarted: "June 21, 2023"
 img: "../../assets/faq-accordion-card.png"
-tags: ["html", "css", "typescript", "pug", "sass"]
+tags: ["html", "sass", "typescript", "pug"]
 ---

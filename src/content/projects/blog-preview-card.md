@@ -5,5 +5,5 @@ link: "https://clark-blog-preview-card.vercel.app/"
 repository: "https://github.com/clakr/blog-preview-card"
 dateStarted: "March 19, 2024"
 img: "../../assets/blog-preview-card.png"
-tags: ["html", "css", "typescript", "lightningcss"]
+tags: ["html", "css", "typescript"]
 ---

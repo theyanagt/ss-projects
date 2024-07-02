@@ -5,5 +5,5 @@ link: "https://clark-base-apparel-coming-soon.vercel.app"
 repository: "https://www.github.com/clakr/base-apparel-coming-soon"
 dateStarted: "May 31, 2023"
 img: "../../assets/base-apparel-coming-soon.png"
-tags: ["html", "css", "typescript", "sass"]
+tags: ["html", "sass", "typescript"]
 ---

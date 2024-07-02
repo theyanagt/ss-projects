@@ -5,5 +5,5 @@ link: "https://clark-single-price-grid-component.vercel.app"
 repository: "https://www.github.com/clakr/single-price-grid-component"
 dateStarted: "June 2, 2023"
 img: "../../assets/single-price-grid-component.png"
-tags: ["html", "css", "typescript", "unocss"]
+tags: ["html", "unocss", "typescript"]
 ---

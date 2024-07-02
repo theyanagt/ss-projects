@@ -5,5 +5,5 @@ link: "https://clark-social-proof-section.vercel.app"
 repository: "https://www.github.com/clakr/social-proof-section"
 dateStarted: "May 19, 2023 1:00"
 img: "../../assets/social-proof-section.png"
-tags: ["html", "css", "typescript", "pug", "sass"]
+tags: ["html", "sass", "typescript", "pug"]
 ---
